@@ -10,4 +10,6 @@
     4. `compare_list([1,2],[1,2,3])`
     6. `compare_list([1,[1,2]],[1,[1,2]])`
 
-3. Coming soon ...    
+3. Now, write a another function that ask the user to input a list, then ask the user to print any element at position x
+
+4. Finally, write a another function that asks the user to input two lists, and then compare them
