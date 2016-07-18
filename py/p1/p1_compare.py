@@ -1,6 +1,8 @@
-list1 = [1,1,1]
-list2 = [1,1,1]
-
+#list1 = [1,1,1]
+#list2 = [1,1,1]
+inlis1 = []
+inlis2 = []
+on = True
 
 def compare_list(param_1,param_2):
     if (param_1 == None and param_2 == None ):
@@ -15,6 +17,29 @@ def compare_list(param_1,param_2):
             else:
                 return False
         return True
+
+def give_in():
+    one = raw_input("First list please. Be sure to seperate with commas")
+    two = raw_input("Second list please. SAME AS FIRST!")
+    inlis1.append[one]
+    inlis2.append[two]
+    gal = len(inlis1 -1)
+    guy = len(inlis2 -1)
+    x = raw_input("First list: Type a number between 0 and " + str(gal) + "\n")
+    if (x < gal):
+        print(inlis1[x])
+    elif (x != gal):
+        print("Oops!!!!!!")
+        print("Aaaahhhh!")
+    else:
+        print(str(gal) + " hee.")
+    y = raw_input("Second list: Type a number between 0 and " + str(guy) + "\n")
+    if (y < guy):
+        print(inlis2[y])
+    elif (x != guy):
+        print
+
+
 
 
 
